@@ -1,0 +1,41 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #FF0000;
+    color: #fff;
+    text-align: center;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
