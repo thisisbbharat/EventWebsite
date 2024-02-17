@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .proposal-box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .heart {
+            color: #ff4d4d;
+        }
+        button {
+            background-color: #ff4d4d;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="proposal-box">
+            <h1>Will You Marry Me?</h1>
+            <p>My dearest [Girlfriend's Name],</p>
+            <p>I love you more than words can express. You mean everything to me. Will you make me the happiest person alive and spend the rest of your life with me?</p>
+            <p><span class="heart">&hearts;</span></p>
+            <button onclick="showResponse()">Yes, I Will!</button>
+        </div>
+    </div>
+    <script>
+        function showResponse() {
+            alert("Congratulations! You've made me the happiest person alive!");
+        }
+    </script>
+</body>
+</html>
