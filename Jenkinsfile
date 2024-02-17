@@ -11,6 +11,16 @@ pipeline
       }
     }
 
+     stage ('Nginx cleanup' )
+    {
+      steps
+      {
+        sh 'docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -aq) '
+             
+      }
+      
+    }
+    
     stage ('Nginx build' )
     {
       steps
