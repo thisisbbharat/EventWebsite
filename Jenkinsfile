@@ -23,7 +23,7 @@ pipeline
     {
       steps 
       {
-        sh 'docker run -d -p 8080:80 image:latest'
+        sh 'docker run -d -p 8081:80 image:latest'
       }
     }
   }
